@@ -1,0 +1,519 @@
+/* Index.html */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #10131c;
+  color: aliceblue;
+  margin: 0;
+}
+.navindex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Destaques {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.filme {
+  display: flex;
+  gap: 10px;
+  width: 400px;
+  background-color: #222735;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 0 black;
+}
+.filme > img {
+  width: 40%;
+  border-radius: 20px 5px 5px 20px;
+}
+.descrição {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.titulo1 {
+  font-size: 90px;
+  margin: 0;
+}
+.titulo2 {
+  font-size: 80px;
+  margin: 0;
+  margin-top: -30px;
+  color: red;
+}
+.inicio > p {
+  width: 30%;
+}
+.inicio {
+  display: flex;
+  gap: 40px;
+}
+.inicio > nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  text-align: center;
+}
+.inicio button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 130px;
+  width: 150px;
+}
+
+.linknav {
+  display: flex;
+  color: aliceblue;
+  flex-wrap: wrap;
+  width: 25%;
+}
+
+.divfooter {
+  display: flex;
+  height: 180px;
+  background-color: #260c0f;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.horario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 1px solid red;
+}
+.local {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+}
+.titulofoote {
+  font-size: 20px;
+}
+.titulofilme {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.descriçãofilme {
+  font-size: 13px;
+}
+.generofilm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-width: 100px;
+  height: 12%;
+  background-color: #260c0f;
+  border-radius: 10px;
+}
+button {
+  color: aliceblue;
+  background-color: #222735;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 0 black;
+  padding: 30px 5px;
+}
+.h2index {
+  font-size: 40px;
+  border-left: red 2px solid;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* filmes.html */
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.batman {
+  display: flex;
+  flex-direction: column;
+  background-color: #222735;
+  border-radius: 10px;
+  width: 293.391px;
+  height: 700px;
+  gap: 5px;
+  border-radius: 10px;
+}
+.descriçaoaçao {
+  margin-left: 5px;
+}
+.batman > img {
+  height: 67%;
+  border-radius: 10px 10px 0 0;
+}
+.titulo {
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 0;
+}
+.sinopse {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  text-align: justify;
+}
+.descriçaoaçao > p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+.destaque {
+  background-color: #79010b;
+  color: #f52f3b;
+  border-radius: 10px;
+  min-width: 100px;
+  width: fit-content;
+  text-align: center;
+}
+.h3filmes {
+  font-size: 30px;
+  border-left: #f52f3b 3px solid;
+  padding-left: 10px;
+}
+.barra {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #222735;
+  height: 70px;
+  color: aliceblue;
+  position: sticky;
+  top: 0;
+  border-bottom: 2px gray solid;
+}
+.barra > a {
+  color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* compra.html */
+.ingresso {
+  color: #f52f3b;
+}
+.compra{
+  font-size: 50px;
+}
+.preços {
+  background-color: #222735;
+  border-radius: 10px;
+  width: 600px;
+  height: 200px;
+  border-spacing: 0;
+  border: 1px solid gray;
+}
+.preços tr > th {
+  background-color: #79010b;
+  text-align: left;
+}
+.linhacinza {
+  border-bottom: 1px solid gray;
+}
+.combos {
+  display: flex;
+  flex-direction: column;
+  background-color: #222735;
+  width: 15%;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.combos > p {
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.organizarcombos {
+  display: flex;
+  gap: 10px;
+}
+form {
+  background-color: #222735;
+  width: 50%;
+  border-radius: 10px;
+}
+.primeirosdoform {
+  display: flex;
+  gap: 10px;
+}
+.doisoprimeirosdoform > input {
+  width: 100%;
+  background-color: #10131c;
+  border: 0;
+}
+.doisoprimeirosdoform {
+  margin-left: 5px;
+  width: 50%;
+}
+.tresoprimeirosdoform {
+  margin-right: 5px;
+  width: 50%;
+}
+.tresoprimeirosdoform > input {
+  width: 100%;
+  background-color: #10131c;
+  border: 0;
+}
+
+.doisultimos > input,
+select {
+  width: 99%;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #10131c;
+  border: none;
+  color: gray;
+}
+.h3forma {
+  margin-left: 5px;
+}
+.doisoprimeirosdoform > ::-webkit-calendar-picker-indicator {
+  filter: invert();
+}
+.doisultimos > h3,
+label {
+  margin-left: 5px;
+}
+input {
+  color: gray;
+}
+.observacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #79010b;
+  border-left: 4px solid red;
+  padding-left: 10px;
+  width: 60%;
+  height: 75px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.observacao > h3 {
+  margin: 0;
+}
+.observacao > p {
+  margin: 0;
+}
+.formadepagum {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.formadepagdois {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.paga {
+  display: flex;
+  gap: 30px;
+  margin-left: 10px;
+}
+.formadepagum label {
+  display: flex;
+  align-items: center;
+  background-color: #10131c;
+  margin-bottom: 10px;
+  height: 50px;
+  border-radius: 10px;
+}
+.formadepagdois label {
+  display: flex;
+  align-items: center;
+  background-color: #10131c;
+  margin-bottom: 10px;
+  height: 50px;
+  border-radius: 10px;
+}
+.botao > button {
+  background-color: #f52f3b;
+  margin: 10px;
+  width: 97%;
+}
+.botao {
+  margin: 5px;
+  border-radius: 10px;
+}
+.h2compras {
+  border-left: 2px solid red;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* horarios.html */
+.horari {
+  border-spacing: 0;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 50%;
+}
+.horari tr th {
+  background-color: #260c0f;
+  color: #f52f3b;
+  border: 0;
+  margin: 0;
+  height: 40px;
+}
+.horari tr td {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  background-color: #222735;
+  width: 200px;
+}
+.ultimodireito {
+  border-radius: 0 0 10px 0;
+}
+.ultimoequerdo {
+  border-radius: 0 0 0 10px;
+}
+.primeiroesquerdo {
+  border-radius: 10px 0 0 0;
+}
+.primeirodireito {
+  border-radius: 0 10px 0 0;
+}
+.navegacaohora > a > button {
+  background-color: #260c0f;
+  color: #f52f3b;
+  width: 100%;
+  padding: 10px 3px;
+  height: fit-content;
+  border-radius: 30px;
+}
+.navegacaohora {
+  display: flex;
+  gap: 7px;
+  height: 4%;
+}
+.navegacaohora > a {
+  width: 8%;
+}
+.navegacaohora > a > button {
+  text-decoration: underline;
+}
+.pe {
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  background-color: #260c0f;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  margin-top: 50px;
+}
+.Intervalo {
+  font-weight: bolder;
+}
+.pe > p {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.desgudar {
+  margin-left: 10px;
+}
+.titfilme {
+  color: #f52f3b;
+}
+.h2hora{
+  font-size: 40px;
+  border-left: red 2px solid;
+  padding-left: 10px;
+}

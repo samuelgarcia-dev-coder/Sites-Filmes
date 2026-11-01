@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compra de Ingressos</title>
+    <link rel="stylesheet" href="styles1.css" />
+  </head>
+  <body>
+    <nav class="barra">
+      <a href="index.html"><img src="./img/icons8-casa-50.png" alt="" /></a>
+      <a href="horarios.html"
+        ><img src="./img/icons8-passado-50.png" alt=""
+      /></a>
+      <a href="filmes.html"><img src="./img/icons8-filme-50.png" alt="" /></a>
+    </nav>
+    <div class="desgudar">
+      <h1 class="titulo1">Compra de</h1>
+      <h1 class="titulo2">Ingressos</h1>
+
+      <h2 class="h2compras">Preços dos Ingressos</h2>
+
+      <table class="preços">
+        <tr>
+          <th class="primeiroesquerdo">Tipo de Ingresso</th>
+          <th class="primeirodireito">Valor Unitário</th>
+        </tr>
+        <tr>
+          <td class="linhacinza">Inteira</td>
+          <td class="linhacinza">R$ 32,00</td>
+        </tr>
+        <tr>
+          <td class="linhacinza">Meia-entrada</td>
+          <td class="linhacinza">R$ 16,00</td>
+        </tr>
+        <tr>
+          <td>Sessão Promocional (Terça e Quarta)</td>
+          <td>R$ 14,00</td>
+        </tr>
+      </table>
+
+      <h2 class="h2compras">Combos de Ingresso + Lanchonete</h2>
+
+      <div class="organizarcombos">
+        <div class="combos">
+          <p>Combo Único (1 Pessoa)</p>
+          <p>R$ 48,00</p>
+          <p>
+            1 Ingresso (Inteira) <br />
+            1 Pipoca Média <br />
+            1 Refrigerante 500ml
+          </p>
+        </div>
+        <div class="combos">
+          <p>Combo Casal (2 Pessoas)</p>
+          <p>R$ 92,00</p>
+          <p>
+            2 Ingressos (Inteira)<br />
+            1 Pipoca Grande<br />
+            2 Refrigerantes 500ml<br />
+            1 Chocolate/Guloseima
+          </p>
+        </div>
+        <div class="combos">
+          <p>Combo Family (4 Pessoas)</p>
+          <p>R$ 175,00</p>
+          <p>
+            4 Ingressos (Inteira)<br />
+            2 Pipocas Grandes<br />
+            4 Refrigerantes 500ml<br />
+            2 Chocolates/Guloseimas
+          </p>
+        </div>
+      </div>
+
+      <div class="observacao">
+        <h3>Observação sobre a Meia-Entrada</h3>
+        <p>
+          Nos combos, clientes que apresentarem comprovante de meia-entrada
+          recebem um desconto adicional de
+          <strong>R$ 8,00 por ingresso elegível</strong>
+          sobre o valor final do combo.
+        </p>
+      </div>
+
+      <h2 class="h2compras">Registro de Compra</h2>
+
+      <form>
+        <div class="primeirosdoform">
+          <div class="doisoprimeirosdoform">
+            <label for="nome">Nome completo</label><br />
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Digite seu nome completo"
+              required
+            />
+            <br />
+
+            <label for="nascimento">Data de nascimento</label> <br />
+            <input
+              type="date"
+              id="nascimento"
+              name="nascimento"
+              placeholder="dd/mm/aaaa"
+              required
+            />
+            <br />
+          </div>
+          <div class="tresoprimeirosdoform">
+            <label for="cpf">CPF:</label> <br />
+            <input
+              type="text"
+              id="cpf"
+              name="cpf"
+              placeholder="000.000.000-00"
+              required
+            />
+            <br />
+
+            <label for="telefone">Nº para contato:</label> <br />
+            <input
+              type="tel"
+              id="telefone"
+              name="telefone"
+              placeholder="(00) 00000-0000"
+              required
+            />
+            <br />
+          </div>
+        </div>
+        <div class="doisultimos">
+          <label for="endereco">Endereço:</label> <br />
+          <input
+            type="text"
+            id="endereco"
+            name="endereco"
+            placeholder="Digite seu endereço completo"
+            required
+          />
+
+          <h3>Tipo de Compra</h3>
+
+          <select id="compra" name="compra" required>
+            <option value="">Selecione o tipo de compra</option>
+            <option value="inteira">Ingresso Inteira</option>
+            <option value="meia">Ingresso Meia-entrada</option>
+            <option value="promocional">Sessão Promocional</option>
+            <option value="combo-unico">Combo Único</option>
+            <option value="combo-casal">Combo Casal</option>
+            <option value="combo-family">Combo Family</option>
+          </select>
+        </div>
+
+        <h3 class="h3forma">Forma de Pagamento</h3>
+        <div class="paga">
+          <div class="formadepagum">
+            <label>
+              <input type="radio" name="pagamento" value="pix" required />
+              Pix
+            </label>
+
+            <label>
+              <input type="radio" name="pagamento" value="cartao" />
+              Cartão
+            </label>
+          </div>
+          <div class="formadepagdois">
+            <label>
+              <input type="radio" name="pagamento" value="especie" />
+              Espécie <br />(Pagamento no cinema)
+            </label>
+
+            <label>
+              <input type="radio" name="pagamento" value="boleto" />
+              Boleto
+            </label>
+          </div>
+        </div>
+        <div class="botao">
+          <button type="submit">Registrar Compra</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
